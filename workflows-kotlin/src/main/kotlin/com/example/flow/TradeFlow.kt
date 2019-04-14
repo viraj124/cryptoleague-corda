@@ -14,7 +14,9 @@ import net.corda.core.transactions.SignedTransaction
 import net.corda.core.transactions.TransactionBuilder
 import net.corda.core.utilities.ProgressTracker
 import net.corda.core.utilities.ProgressTracker.Step
+import java.sql.Date
 import java.sql.Timestamp
+import java.time.LocalDateTime
 
 /**
  * This flow allows two parties (the [Initiator] and the [Acceptor]) to come to an agreement about the IOU encapsulated
@@ -35,10 +37,12 @@ object TradeFlow {
     val userId: String,
     val assetCode: String,
     val orderType: String,
-    val transactionAmount: Int,
-    val transactionFees: Int,
-    val transactionUnits: Int,
-    val transactionId: String) : FlowLogic<SignedTransaction>() {
+    val transactionAmount: Double,
+    val transactionFees: Double,
+    val transactionUnits: Double,
+    val transactionId: String,
+    val transactionDate : java.util.Date,
+    val transactionPrice: Double) : FlowLogic<SignedTransaction>() {
         /**
          * The progress tracker checkpoints each stage of the flow and outputs the specified messages when each
          * checkpoint is reached in the code. See the 'progressTracker.currentStep' expressions within the call() function.
@@ -77,14 +81,13 @@ object TradeFlow {
             // Stage 1.
             progressTracker.currentStep = GENERATING_TRANSACTION
             // Generate an unsigned transaction.
-            val tradeState = TradeState(serviceHub.myInfo.legalIdentities.first(), counterParty,tradeStatus,userId,assetCode,orderType,transactionAmount,transactionFees,transactionUnits,transactionId)
+            val tradeState = TradeState(serviceHub.myInfo.legalIdentities.first(), counterParty,tradeStatus,userId,assetCode,orderType,transactionAmount,transactionFees,transactionUnits,transactionId,transactionDate,transactionPrice, LocalDateTime.now())
             val txCommand = Command(TradeContract.Commands.Create(), listOf(ourIdentity.owningKey,counterParty.owningKey))
             val txBuilder = TransactionBuilder(notary)
                     .addOutputState(tradeState, TradeContract.ID)
                     .addCommand(txCommand)
             // Stage 2.
             progressTracker.currentStep = VERIFYING_TRANSACTION
-
             // Verify that the transaction is valid.
             txBuilder.verify(serviceHub)
 

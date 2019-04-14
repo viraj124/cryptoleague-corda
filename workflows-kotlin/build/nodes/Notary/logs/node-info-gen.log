@@ -1,14 +1,14 @@
-2019-03-08 07:30:39,232 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-2019-03-08 07:30:39,236 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-13 21:41:02,235 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-13 21:41:02,247 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
 
    ______               __
   / ____/     _________/ /___ _
- / /     __  / ___/ __  / __ `/         There was an earthquake in California,
-/ /___  /_/ / /  / /_/ / /_/ /          a local bank went into de-fault.
+ / /     __  / ___/ __  / __ `/         A banker left to their own devices may find
+/ /___  /_/ / /  / /_/ / /_/ /          themselves .... a-loan! <applause>
 \____/     /_/   \__,_/\__,_/
 
 --- Corda Open Source 4.0-RC05 (47c7da0) -------------------------------------------------------------
 
 
-Logs can be found in                    : C:\Personal\samples\cordapp-example\workflows-kotlin\build\nodes\Notary\logs
-[ERROR] 07:31:08+0530 [main] persistence.AttachmentVersionNumberMigration.execute - Attachment version creation from whitelisted JARs exception C:\Personal\samples\cordapp-example\workflows-kotlin\build\nodes\Notary\network-parameters [errorCode=1hgb0kx, moreInformationAt=https://errors.corda.net/OS/4.0-RC05/1hgb0kx]
+Logs can be found in                    : G:\cryptoleague-corda\workflows-kotlin\build\nodes\Notary\logs
+[ERROR] 21:42:01+0530 [main] persistence.AttachmentVersionNumberMigration.execute - Attachment version creation from whitelisted JARs exception G:\cryptoleague-corda\workflows-kotlin\build\nodes\Notary\network-parameters [errorCode=1hgb0kx, moreInformationAt=https://errors.corda.net/OS/4.0-RC05/1hgb0kx]

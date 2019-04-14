@@ -1,308 +1,678 @@
-[INFO ] 2019-03-08T02:12:11,899 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 20232 (C:\Personal\samples\cordapp-example\clients\build\classes\kotlin\main started by ideapad in C:\Personal\samples\cordapp-example\clients)
-[INFO ] 2019-03-08T02:12:12,195 [main] ServerKt - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-08T02:12:13,522 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 07:42:13 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:12:23,111 [background-preinit] Version - HV000001: Hibernate Validator 5.3.5.Final
-[INFO ] 2019-03-08T02:12:28,973 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$bb2386ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-08T02:12:32,497 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 50005 (http)
-[INFO ] 2019-03-08T02:12:32,547 [main] StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-08T02:12:32,551 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
-[INFO ] 2019-03-08T02:12:33,287 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-08T02:12:33,287 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 20034 ms
-[INFO ] 2019-03-08T02:12:33,565 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
-[INFO ] 2019-03-08T02:12:33,577 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-[INFO ] 2019-03-08T02:12:33,579 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-[INFO ] 2019-03-08T02:12:33,579 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-[INFO ] 2019-03-08T02:12:33,580 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-[INFO ] 2019-03-08T02:12:53,542 [main] RPCClient - Startup took 17891 msec
-[INFO ] 2019-03-08T02:12:57,101 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 07:42:13 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:12:59,034 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/me],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, net.corda.core.identity.CordaX500Name> com.example.server.MainController.whoami()
-[INFO ] 2019-03-08T02:12:59,049 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/create-trade],methods=[POST],consumes=[application/x-www-form-urlencoded],produces=[text/plain]}" onto public final org.springframework.http.ResponseEntity<java.lang.String> com.example.server.MainController.createIOU(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T02:12:59,051 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/peers],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, java.util.List<net.corda.core.identity.CordaX500Name>> com.example.server.MainController.getPeers()
-[INFO ] 2019-03-08T02:12:59,053 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/trades],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTrades()
-[INFO ] 2019-03-08T02:12:59,054 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/getTrade],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTransactionDetails(java.lang.String)
-[INFO ] 2019-03-08T02:12:59,078 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T02:12:59,079 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-[INFO ] 2019-03-08T02:12:59,223 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:12:59,224 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:12:59,383 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:12:59,899 [main] WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
-[INFO ] 2019-03-08T02:13:03,512 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-[INFO ] 2019-03-08T02:13:03,561 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
-[INFO ] 2019-03-08T02:13:03,730 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
-[INFO ] 2019-03-08T02:13:03,778 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
-[INFO ] 2019-03-08T02:13:03,782 [main] NioSelectorPool - Using a shared selector for servlet write/read
-[INFO ] 2019-03-08T02:13:03,985 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 50005 (http)
-[INFO ] 2019-03-08T02:13:04,002 [main] ServerKt - Started ServerKt in 59.103 seconds (JVM running for 66.358)
-[INFO ] 2019-03-08T02:13:31,103 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 9556 (C:\Personal\samples\cordapp-example\clients\build\classes\kotlin\main started by ideapad in C:\Personal\samples\cordapp-example\clients)
-[INFO ] 2019-03-08T02:13:31,128 [main] ServerKt - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-08T02:13:31,756 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 07:43:31 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:13:35,838 [background-preinit] Version - HV000001: Hibernate Validator 5.3.5.Final
-[INFO ] 2019-03-08T02:13:37,086 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e4c87ccd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-08T02:13:41,671 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 50007 (http)
-[INFO ] 2019-03-08T02:13:41,729 [main] StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-08T02:13:41,734 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
-[INFO ] 2019-03-08T02:13:42,293 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-08T02:13:42,294 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 10543 ms
-[INFO ] 2019-03-08T02:13:42,680 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
-[INFO ] 2019-03-08T02:13:42,697 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-[INFO ] 2019-03-08T02:13:42,699 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-[INFO ] 2019-03-08T02:13:42,699 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-[INFO ] 2019-03-08T02:13:42,701 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-[INFO ] 2019-03-08T02:14:01,360 [http-nio-50005-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-08T02:14:01,361 [http-nio-50005-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-[INFO ] 2019-03-08T02:14:02,548 [http-nio-50005-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 1186 ms
-[INFO ] 2019-03-08T02:14:03,955 [main] RPCClient - Startup took 18993 msec
-[INFO ] 2019-03-08T02:14:08,421 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 07:43:31 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:14:08,732 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/getTrade],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTransactionDetails(java.lang.String)
-[INFO ] 2019-03-08T02:14:08,735 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/create-trade],methods=[POST],consumes=[application/x-www-form-urlencoded],produces=[text/plain]}" onto public final org.springframework.http.ResponseEntity<java.lang.String> com.example.server.MainController.createIOU(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T02:14:08,736 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/peers],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, java.util.List<net.corda.core.identity.CordaX500Name>> com.example.server.MainController.getPeers()
-[INFO ] 2019-03-08T02:14:08,738 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/trades],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTrades()
-[INFO ] 2019-03-08T02:14:08,739 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/me],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, net.corda.core.identity.CordaX500Name> com.example.server.MainController.whoami()
-[INFO ] 2019-03-08T02:14:08,744 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T02:14:08,745 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-[INFO ] 2019-03-08T02:14:08,910 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:14:08,911 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:14:09,035 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:14:09,146 [main] WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
-[INFO ] 2019-03-08T02:14:10,126 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-[INFO ] 2019-03-08T02:14:10,150 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
-[INFO ] 2019-03-08T02:14:10,200 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50007"]
-[INFO ] 2019-03-08T02:14:10,238 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50007"]
-[INFO ] 2019-03-08T02:14:10,245 [main] NioSelectorPool - Using a shared selector for servlet write/read
-[INFO ] 2019-03-08T02:14:10,566 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 50007 (http)
-[INFO ] 2019-03-08T02:14:10,580 [main] ServerKt - Started ServerKt in 45.557 seconds (JVM running for 55.713)
-[ERROR] 2019-03-08T02:14:30,479 [http-nio-50005-exec-1] [localhost] - Exception Processing ErrorPage[errorCode=0, location=/error]
-org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2645) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.core.base.GeneratorBase.writeObject(GeneratorBase.java:381) ~[jackson-core-2.9.5.jar:2.9.5]
-	at net.corda.client.jackson.JacksonSupport$DateSerializer.serialize(JacksonSupport.kt:204) ~[corda-jackson-4.0-RC05.jar:?]
-	at net.corda.client.jackson.JacksonSupport$DateSerializer.serialize(JacksonSupport.kt:202) ~[corda-jackson-4.0-RC05.jar:?]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:718) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:639) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1392) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913) ~[jackson-databind-2.9.5.jar:2.9.5]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:286) ~[spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:106) ~[spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:231) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:203) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:81) ~[spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:113) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457) [tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.20.jar:8.5.20]
+[INFO ] 2019-04-13T05:25:35,225 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 17284 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T05:25:35,418 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T05:25:45,359 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$502620f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T05:25:47,665 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T05:25:47,785 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T05:25:47,799 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T05:25:47,800 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T05:25:47,842 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T05:25:48,508 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T05:25:48,508 [main] ContextLoader - Root WebApplicationContext: initialization completed in 12786 ms
+[INFO ] 2019-04-13T05:25:56,385 [main] RPCClient - Startup took 6934 msec
+[INFO ] 2019-04-13T05:25:59,001 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T05:25:59,307 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T05:26:00,046 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T05:26:00,151 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T05:26:00,166 [main] ServerKt - Started ServerKt in 29.026 seconds (JVM running for 34.343)
+[INFO ] 2019-04-13T05:29:32,291 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T05:29:32,292 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T05:29:32,395 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 103 ms
+[WARN ] 2019-04-13T05:29:52,715 [rpc-client-reaper-0] RPCClientProxyHandler - A hot observable returned from an RPC was never subscribed to. This wastes server-side resources because it was queueing observations for retrieval. It is being closed now, but please adjust your code to call .notUsed() on the observable to close it explicitly. (Java users: subscribe to it then unsubscribe). If you aren't sure where the leak is coming from, set -Dnet.corda.client.rpc.trackRpcCallSites=true on the JVM command line and you will get a stack trace with this warning.
+[WARN ] 2019-04-13T05:29:52,715 [rpc-client-reaper-0] RPCClientProxyHandler - A hot observable returned from an RPC was never subscribed to. This wastes server-side resources because it was queueing observations for retrieval. It is being closed now, but please adjust your code to call .notUsed() on the observable to close it explicitly. (Java users: subscribe to it then unsubscribe). If you aren't sure where the leak is coming from, set -Dnet.corda.client.rpc.trackRpcCallSites=true on the JVM command line and you will get a stack trace with this warning.
+[WARN ] 2019-04-13T05:29:52,715 [rpc-client-reaper-0] RPCClientProxyHandler - A hot observable returned from an RPC was never subscribed to. This wastes server-side resources because it was queueing observations for retrieval. It is being closed now, but please adjust your code to call .notUsed() on the observable to close it explicitly. (Java users: subscribe to it then unsubscribe). If you aren't sure where the leak is coming from, set -Dnet.corda.client.rpc.trackRpcCallSites=true on the JVM command line and you will get a stack trace with this warning.
+[ERROR] 2019-04-13T05:32:32,803 [http-nio-50005-exec-2] RestController - org.hibernate.exception.SQLGrammarException: could not prepare statement
+net.corda.core.CordaRuntimeException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+[INFO ] 2019-04-13T05:32:34,623 [http-nio-50005-exec-2] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[ERROR] 2019-04-13T05:32:40,525 [AMQP Connection 127.0.0.1:5672] ForgivingExceptionHandler - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_181]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[?:1.8.0_181]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) [amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[INFO ] 2019-04-13T05:32:42,771 [http-nio-50005-exec-2] CachingConnectionFactory - Created new connection: connectionFactory#10be40e0:0/SimpleConnection@312d9045 [delegate=amqp://guest@0:0:0:0:0:0:0:1:5672/, localPort= 9672]
+[ERROR] 2019-04-13T05:40:16,192 [http-nio-50005-exec-3] RestController - org.hibernate.exception.SQLGrammarException: could not prepare statement
+net.corda.core.CordaRuntimeException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+[INFO ] 2019-04-13T05:40:16,349 [http-nio-50005-exec-3] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T05:40:16,511 [http-nio-50005-exec-3] CachingConnectionFactory - Created new connection: connectionFactory#58cf8c4b:0/SimpleConnection@47a96d48 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 10038]
+[INFO ] 2019-04-13T06:07:12,305 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 9096 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T06:07:12,353 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T06:07:16,300 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$cc58407] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T06:07:17,693 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T06:07:17,744 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T06:07:17,760 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T06:07:17,761 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T06:07:17,798 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T06:07:18,085 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T06:07:18,085 [main] ContextLoader - Root WebApplicationContext: initialization completed in 5621 ms
+[INFO ] 2019-04-13T06:07:22,858 [main] RPCClient - Startup took 3805 msec
+[INFO ] 2019-04-13T06:07:23,965 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T06:07:24,182 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T06:07:25,337 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T06:07:25,406 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T06:07:25,416 [main] ServerKt - Started ServerKt in 16.694 seconds (JVM running for 23.479)
+[INFO ] 2019-04-13T06:07:39,209 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T06:07:39,209 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T06:07:39,219 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 10 ms
+[ERROR] 2019-04-13T06:08:02,031 [http-nio-50005-exec-2] RestController - org.hibernate.exception.SQLGrammarException: could not prepare statement
+net.corda.core.CordaRuntimeException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+[INFO ] 2019-04-13T06:08:02,218 [http-nio-50005-exec-2] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T06:08:02,631 [http-nio-50005-exec-2] CachingConnectionFactory - Created new connection: connectionFactory#552d5ce0:0/SimpleConnection@3edc043e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 12418]
+[WARN ] 2019-04-13T06:18:27,101 [Thread-18 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[INFO ] 2019-04-13T06:38:28,875 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 7252 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T06:38:28,926 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T06:38:32,765 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$52ea7bdb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T06:38:34,534 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T06:38:34,574 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T06:38:34,588 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T06:38:34,589 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T06:38:34,625 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T06:38:35,162 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T06:38:35,162 [main] ContextLoader - Root WebApplicationContext: initialization completed in 5959 ms
+[INFO ] 2019-04-13T06:38:50,607 [main] RPCClient - Startup took 14012 msec
+[INFO ] 2019-04-13T06:38:52,689 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T06:38:52,914 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T06:38:53,877 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T06:38:54,007 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T06:38:54,022 [main] ServerKt - Started ServerKt in 29.249 seconds (JVM running for 34.845)
+[INFO ] 2019-04-13T06:40:09,566 [http-nio-50005-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T06:40:09,566 [http-nio-50005-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T06:40:09,577 [http-nio-50005-exec-1] DispatcherServlet - Completed initialization in 11 ms
+[ERROR] 2019-04-13T06:40:42,055 [http-nio-50005-exec-1] RestController - org.hibernate.exception.SQLGrammarException: could not prepare statement
+net.corda.core.CordaRuntimeException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+[INFO ] 2019-04-13T06:40:42,309 [http-nio-50005-exec-1] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T06:40:43,228 [http-nio-50005-exec-1] CachingConnectionFactory - Created new connection: connectionFactory#2218e933:0/SimpleConnection@5b9d606f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 1297]
+[INFO ] 2019-04-13T07:08:12,223 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 13204 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T07:08:12,302 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T07:08:17,201 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$308bfb71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T07:08:23,868 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T07:08:23,985 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T07:08:24,013 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T07:08:24,015 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T07:08:24,099 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T07:08:24,678 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T07:08:24,678 [main] ContextLoader - Root WebApplicationContext: initialization completed in 12058 ms
+[INFO ] 2019-04-13T07:08:33,162 [main] RPCClient - Failed Startup took 6491 msec
+[WARN ] 2019-04-13T07:08:33,166 [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController' defined in file [G:\cryptoleague-corda\clients\build\classes\kotlin\main\com\example\server\MainController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nodeRPCConnection': Invocation of init method failed; nested exception is net.corda.client.rpc.RPCException: Cannot connect to server(s). Tried with all available servers.
+[INFO ] 2019-04-13T07:08:33,174 [main] StandardService - Stopping service [Tomcat]
+[INFO ] 2019-04-13T07:08:33,202 [main] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2019-04-13T07:08:33,206 [main] SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController' defined in file [G:\cryptoleague-corda\clients\build\classes\kotlin\main\com\example\server\MainController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nodeRPCConnection': Invocation of init method failed; nested exception is net.corda.client.rpc.RPCException: Cannot connect to server(s). Tried with all available servers.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.example.server.ServerKt.main(Server.kt:36) [main/:?]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nodeRPCConnection': Invocation of init method failed; nested exception is net.corda.client.rpc.RPCException: Cannot connect to server(s). Tried with all available servers.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1754) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 17 more
+Caused by: net.corda.client.rpc.RPCException: Cannot connect to server(s). Tried with all available servers.
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:218) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:93) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:32) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.core.internal.InternalUtils.logElapsedTime(InternalUtils.kt:193) ~[corda-core-4.0-RC05.jar:?]
+	at net.corda.core.internal.InternalUtils.logElapsedTime(InternalUtils.kt:183) ~[corda-core-4.0-RC05.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:72) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:392) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:375) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:344) ~[corda-rpc-4.0-RC05.jar:?]
+	at com.example.server.NodeRPCConnection.initialiseNodeRPCConnection(NodeRPCConnection.kt:45) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1754) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 17 more
+Caused by: org.apache.activemq.artemis.api.core.ActiveMQNotConnectedException: AMQ119007: Cannot connect to server(s). Tried with all available servers.
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:797) ~[artemis-core-client-2.6.2.jar:2.6.2]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:216) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:93) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:32) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.core.internal.InternalUtils.logElapsedTime(InternalUtils.kt:193) ~[corda-core-4.0-RC05.jar:?]
+	at net.corda.core.internal.InternalUtils.logElapsedTime(InternalUtils.kt:183) ~[corda-core-4.0-RC05.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:72) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:392) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:375) ~[corda-rpc-4.0-RC05.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:344) ~[corda-rpc-4.0-RC05.jar:?]
+	at com.example.server.NodeRPCConnection.initialiseNodeRPCConnection(NodeRPCConnection.kt:45) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1754) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 17 more
+[INFO ] 2019-04-13T07:13:52,011 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 444 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T07:13:52,063 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T07:13:57,236 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ac3ed3da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T07:14:02,459 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T07:14:02,534 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T07:14:02,562 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T07:14:02,562 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T07:14:02,678 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T07:14:03,397 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T07:14:03,397 [main] ContextLoader - Root WebApplicationContext: initialization completed in 11103 ms
+[INFO ] 2019-04-13T07:14:11,459 [main] RPCClient - Startup took 6743 msec
+[INFO ] 2019-04-13T07:14:13,967 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T07:14:14,567 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T07:14:15,601 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T07:14:15,669 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T07:14:15,677 [main] ServerKt - Started ServerKt in 30.213 seconds (JVM running for 46.805)
+[INFO ] 2019-04-13T07:15:01,006 [http-nio-50005-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T07:15:01,006 [http-nio-50005-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T07:15:01,050 [http-nio-50005-exec-1] DispatcherServlet - Completed initialization in 44 ms
+[ERROR] 2019-04-13T07:15:45,044 [http-nio-50005-exec-1] RestController - org.hibernate.exception.SQLGrammarException: could not prepare statement
+net.corda.core.CordaRuntimeException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+[INFO ] 2019-04-13T07:15:45,304 [http-nio-50005-exec-1] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T07:15:46,139 [http-nio-50005-exec-1] CachingConnectionFactory - Created new connection: connectionFactory#72784ffe:0/SimpleConnection@541b6354 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 5564]
+[INFO ] 2019-04-13T07:49:51,538 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 11376 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T07:49:51,598 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T07:49:57,602 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$94fc7cb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T07:50:00,544 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T07:50:00,696 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T07:50:00,712 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T07:50:00,716 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T07:50:00,780 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T07:50:01,659 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T07:50:01,663 [main] ContextLoader - Root WebApplicationContext: initialization completed in 9789 ms
+[INFO ] 2019-04-13T07:50:12,439 [main] RPCClient - Startup took 8866 msec
+[INFO ] 2019-04-13T07:50:16,214 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T07:50:16,918 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T07:50:18,467 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T07:50:18,635 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T07:50:18,647 [main] ServerKt - Started ServerKt in 33.644 seconds (JVM running for 43.395)
+[INFO ] 2019-04-13T07:50:49,495 [http-nio-50005-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T07:50:49,495 [http-nio-50005-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T07:50:49,523 [http-nio-50005-exec-1] DispatcherServlet - Completed initialization in 24 ms
+[ERROR] 2019-04-13T07:51:46,544 [http-nio-50005-exec-1] RestController - org.hibernate.exception.SQLGrammarException: could not prepare statement
+net.corda.core.CordaRuntimeException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+[INFO ] 2019-04-13T07:51:46,704 [http-nio-50005-exec-1] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T07:51:48,238 [http-nio-50005-exec-1] CachingConnectionFactory - Created new connection: connectionFactory#71d69aa1:0/SimpleConnection@7d88859e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 8952]
+[WARN ] 2019-04-13T07:53:19,146 [Thread-16 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[INFO ] 2019-04-13T08:27:22,275 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 13612 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T08:27:22,591 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T08:27:39,367 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$39f79999] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T08:27:51,109 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T08:27:51,540 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T08:27:51,600 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T08:27:51,600 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T08:27:51,792 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T08:27:54,137 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T08:27:54,137 [main] ContextLoader - Root WebApplicationContext: initialization completed in 30628 ms
+[INFO ] 2019-04-13T08:28:11,899 [main] RPCClient - Startup took 14539 msec
+[INFO ] 2019-04-13T08:28:16,706 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T08:28:17,528 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T08:28:21,336 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T08:28:21,672 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T08:28:21,766 [main] ServerKt - Started ServerKt in 77.199 seconds (JVM running for 92.228)
+[INFO ] 2019-04-13T08:29:45,248 [http-nio-50005-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T08:29:45,248 [http-nio-50005-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T08:29:45,261 [http-nio-50005-exec-1] DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2019-04-13T08:30:51,258 [http-nio-50005-exec-1] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T08:30:52,847 [http-nio-50005-exec-1] CachingConnectionFactory - Created new connection: connectionFactory#5bfc220a:0/SimpleConnection@64f94d44 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 12449]
+[INFO ] 2019-04-13T10:22:56,791 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 16704 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T10:22:56,951 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T10:23:06,866 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$308bfb71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T10:23:09,488 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T10:23:09,604 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T10:23:09,632 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T10:23:09,636 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T10:23:09,735 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T10:23:10,986 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T10:23:10,986 [main] ContextLoader - Root WebApplicationContext: initialization completed in 13184 ms
+[INFO ] 2019-04-13T10:23:26,055 [main] RPCClient - Startup took 12736 msec
+[INFO ] 2019-04-13T10:23:30,316 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T10:23:30,780 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T10:23:31,774 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T10:23:31,846 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T10:23:31,854 [main] ServerKt - Started ServerKt in 41.59 seconds (JVM running for 47.56)
+[INFO ] 2019-04-13T10:24:31,249 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T10:24:31,249 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T10:24:31,297 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 48 ms
+[INFO ] 2019-04-13T10:25:03,804 [http-nio-50005-exec-2] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T10:25:06,429 [http-nio-50005-exec-2] CachingConnectionFactory - Created new connection: connectionFactory#2de33f08:0/SimpleConnection@2e0fb0bc [delegate=amqp://guest@127.0.0.1:5672/, localPort= 7730]
+[INFO ] 2019-04-13T10:48:21,533 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 4964 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T10:48:21,598 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T10:48:28,371 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$2b0416b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T10:48:30,701 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T10:48:30,813 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T10:48:30,892 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T10:48:30,892 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T10:48:30,954 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T10:48:31,491 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T10:48:31,491 [main] ContextLoader - Root WebApplicationContext: initialization completed in 9612 ms
+[INFO ] 2019-04-13T10:48:40,218 [main] RPCClient - Startup took 7526 msec
+[INFO ] 2019-04-13T10:48:43,096 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T10:48:43,763 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T10:48:45,220 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T10:48:45,400 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T10:48:45,412 [main] ServerKt - Started ServerKt in 34.194 seconds (JVM running for 40.72)
+[INFO ] 2019-04-13T10:49:45,010 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T10:49:45,014 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T10:49:45,050 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 36 ms
+[INFO ] 2019-04-13T10:50:22,272 [http-nio-50005-exec-2] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T10:50:23,746 [http-nio-50005-exec-2] CachingConnectionFactory - Created new connection: connectionFactory#6eaa31c2:0/SimpleConnection@6ae6aaea [delegate=amqp://guest@127.0.0.1:5672/, localPort= 10249]
+[INFO ] 2019-04-13T11:01:50,416 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 3568 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T11:01:50,479 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T11:01:56,309 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$69338689] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T11:01:59,164 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T11:01:59,273 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:01:59,305 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T11:01:59,305 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T11:01:59,385 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T11:02:00,122 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T11:02:00,122 [main] ContextLoader - Root WebApplicationContext: initialization completed in 8800 ms
+[INFO ] 2019-04-13T11:02:09,481 [main] RPCClient - Startup took 7901 msec
+[INFO ] 2019-04-13T11:02:11,978 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T11:02:12,507 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T11:02:13,464 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:02:13,527 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T11:02:13,574 [main] ServerKt - Started ServerKt in 29.669 seconds (JVM running for 35.518)
+[INFO ] 2019-04-13T11:02:56,928 [http-nio-50005-exec-3] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:02:56,932 [http-nio-50005-exec-3] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:02:56,968 [http-nio-50005-exec-3] DispatcherServlet - Completed initialization in 36 ms
+[ERROR] 2019-04-13T11:02:57,080 [http-nio-50005-exec-3] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "20/08/2019"] with root cause
+java.text.ParseException: Unparseable date: "20/08/2019"
+	at java.text.DateFormat.parse(DateFormat.java:366) ~[?:1.8.0_181]
+	at com.example.server.MainController.createIOU(MainController.kt:95) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
-	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:1.8.0_181]
-	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[?:1.8.0_181]
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[?:1.8.0_181]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[?:1.8.0_181]
-	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[?:1.8.0_181]
-	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1261) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:581) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:272) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1510) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:283) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.20.jar:8.5.20]
-	... 51 more
-[INFO ] 2019-03-08T02:14:51,054 [http-nio-50007-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-08T02:14:51,056 [http-nio-50007-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-[INFO ] 2019-03-08T02:14:51,173 [http-nio-50007-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 117 ms
-[INFO ] 2019-03-08T02:17:58,455 [http-nio-50005-exec-1] AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2e7fde6c: startup date [Fri Mar 08 07:47:58 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:18:06,121 [http-nio-50005-exec-1] CachingConnectionFactory - Created new connection: SimpleConnection@27c73b83 [delegate=amqp://guest@127.0.0.1:5672/]
-[INFO ] 2019-03-08T02:20:05,960 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 16060 (C:\Personal\samples\cordapp-example\clients\build\classes\kotlin\main started by ideapad in C:\Personal\samples\cordapp-example\clients)
-[INFO ] 2019-03-08T02:20:05,974 [main] ServerKt - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-08T02:20:06,222 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 07:50:06 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:20:08,088 [background-preinit] Version - HV000001: Hibernate Validator 5.3.5.Final
-[INFO ] 2019-03-08T02:20:09,405 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ffd70607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-08T02:20:15,903 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 50006 (http)
-[INFO ] 2019-03-08T02:20:15,986 [main] StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-08T02:20:15,988 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
-[INFO ] 2019-03-08T02:20:16,649 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-08T02:20:16,650 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 10433 ms
-[INFO ] 2019-03-08T02:20:17,033 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
-[INFO ] 2019-03-08T02:20:17,042 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-[INFO ] 2019-03-08T02:20:17,044 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-[INFO ] 2019-03-08T02:20:17,044 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-[INFO ] 2019-03-08T02:20:17,044 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-[INFO ] 2019-03-08T02:20:28,942 [main] RPCClient - Startup took 10007 msec
-[INFO ] 2019-03-08T02:20:30,928 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 07:50:06 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:20:31,099 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/getTrade],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTransactionDetails(java.lang.String)
-[INFO ] 2019-03-08T02:20:31,100 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/trades],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTrades()
-[INFO ] 2019-03-08T02:20:31,101 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/me],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, net.corda.core.identity.CordaX500Name> com.example.server.MainController.whoami()
-[INFO ] 2019-03-08T02:20:31,102 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/create-trade],methods=[POST],consumes=[application/x-www-form-urlencoded],produces=[text/plain]}" onto public final org.springframework.http.ResponseEntity<java.lang.String> com.example.server.MainController.createIOU(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T02:20:31,103 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/peers],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, java.util.List<net.corda.core.identity.CordaX500Name>> com.example.server.MainController.getPeers()
-[INFO ] 2019-03-08T02:20:31,106 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T02:20:31,107 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-[INFO ] 2019-03-08T02:20:31,153 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:20:31,153 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:20:31,238 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T02:20:31,286 [main] WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
-[INFO ] 2019-03-08T02:20:31,887 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-[INFO ] 2019-03-08T02:20:31,901 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
-[INFO ] 2019-03-08T02:20:31,929 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50006"]
-[INFO ] 2019-03-08T02:20:31,960 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50006"]
-[INFO ] 2019-03-08T02:20:31,963 [main] NioSelectorPool - Using a shared selector for servlet write/read
-[INFO ] 2019-03-08T02:20:32,031 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 50006 (http)
-[INFO ] 2019-03-08T02:20:32,067 [main] ServerKt - Started ServerKt in 29.792 seconds (JVM running for 37.227)
-[INFO ] 2019-03-08T02:20:54,518 [http-nio-50006-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-08T02:20:54,519 [http-nio-50006-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-[INFO ] 2019-03-08T02:20:54,563 [http-nio-50006-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
-[INFO ] 2019-03-08T02:22:39,785 [http-nio-50005-exec-8] AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f411f19: startup date [Fri Mar 08 07:52:39 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:22:43,233 [http-nio-50005-exec-8] CachingConnectionFactory - Created new connection: SimpleConnection@6d00cfc8 [delegate=amqp://guest@127.0.0.1:5672/]
-[INFO ] 2019-03-08T02:24:18,173 [http-nio-50005-exec-12] AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21ef2933: startup date [Fri Mar 08 07:54:18 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T02:24:18,927 [http-nio-50005-exec-12] CachingConnectionFactory - Created new connection: SimpleConnection@5634a8f2 [delegate=amqp://guest@127.0.0.1:5672/]
-[INFO ] 2019-03-08T08:03:04,306 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 1864 (C:\Personal\samples\cordapp-example\clients\build\classes\kotlin\main started by ideapad in C:\Personal\samples\cordapp-example\clients)
-[INFO ] 2019-03-08T08:03:04,330 [main] ServerKt - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-08T08:03:04,512 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 13:33:04 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T08:03:06,064 [background-preinit] Version - HV000001: Hibernate Validator 5.3.5.Final
-[INFO ] 2019-03-08T08:03:06,738 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a1d23a33] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-08T08:03:07,929 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 50005 (http)
-[INFO ] 2019-03-08T08:03:07,976 [main] StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-08T08:03:07,976 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
-[INFO ] 2019-03-08T08:03:08,275 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-08T08:03:08,275 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3763 ms
-[INFO ] 2019-03-08T08:03:08,431 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
-[INFO ] 2019-03-08T08:03:08,431 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-[INFO ] 2019-03-08T08:03:08,431 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-[INFO ] 2019-03-08T08:03:08,431 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-[INFO ] 2019-03-08T08:03:08,431 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-[INFO ] 2019-03-08T08:03:13,684 [main] RPCClient - Startup took 4278 msec
-[INFO ] 2019-03-08T08:03:14,720 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 13:33:04 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/getTrade],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTransactionDetails(java.lang.String)
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/create-trade],methods=[POST],consumes=[application/x-www-form-urlencoded],produces=[text/plain]}" onto public final org.springframework.http.ResponseEntity<java.lang.String> com.example.server.MainController.createIOU(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/peers],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, java.util.List<net.corda.core.identity.CordaX500Name>> com.example.server.MainController.getPeers()
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/me],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, net.corda.core.identity.CordaX500Name> com.example.server.MainController.whoami()
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/trades],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTrades()
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T08:03:14,861 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-[INFO ] 2019-03-08T08:03:14,892 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:03:14,892 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:03:15,034 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:03:15,190 [main] WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
-[INFO ] 2019-03-08T08:03:15,725 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-[INFO ] 2019-03-08T08:03:15,725 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
-[INFO ] 2019-03-08T08:03:15,741 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
-[INFO ] 2019-03-08T08:03:15,788 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
-[INFO ] 2019-03-08T08:03:15,788 [main] NioSelectorPool - Using a shared selector for servlet write/read
-[INFO ] 2019-03-08T08:03:15,819 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 50005 (http)
-[INFO ] 2019-03-08T08:03:15,819 [main] ServerKt - Started ServerKt in 13.596 seconds (JVM running for 34.6)
-[INFO ] 2019-03-08T08:04:02,245 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 2624 (C:\Personal\samples\cordapp-example\clients\build\classes\kotlin\main started by ideapad in C:\Personal\samples\cordapp-example\clients)
-[INFO ] 2019-03-08T08:04:02,260 [main] ServerKt - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-08T08:04:02,401 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 13:34:02 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T08:04:03,437 [background-preinit] Version - HV000001: Hibernate Validator 5.3.5.Final
-[INFO ] 2019-03-08T08:04:04,187 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8bf83ce8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-08T08:04:05,381 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 50007 (http)
-[INFO ] 2019-03-08T08:04:05,506 [main] StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-08T08:04:05,506 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
-[INFO ] 2019-03-08T08:04:05,822 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-08T08:04:05,822 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3421 ms
-[INFO ] 2019-03-08T08:04:06,009 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
-[INFO ] 2019-03-08T08:04:06,009 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-[INFO ] 2019-03-08T08:04:06,009 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-[INFO ] 2019-03-08T08:04:06,009 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-[INFO ] 2019-03-08T08:04:06,009 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-[INFO ] 2019-03-08T08:04:10,133 [main] RPCClient - Startup took 3467 msec
-[INFO ] 2019-03-08T08:04:10,993 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 13:34:02 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T08:04:11,123 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/peers],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, java.util.List<net.corda.core.identity.CordaX500Name>> com.example.server.MainController.getPeers()
-[INFO ] 2019-03-08T08:04:11,125 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/trades],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTrades()
-[INFO ] 2019-03-08T08:04:11,125 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/me],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, net.corda.core.identity.CordaX500Name> com.example.server.MainController.whoami()
-[INFO ] 2019-03-08T08:04:11,126 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/create-trade],methods=[POST],consumes=[application/x-www-form-urlencoded],produces=[text/plain]}" onto public final org.springframework.http.ResponseEntity<java.lang.String> com.example.server.MainController.createIOU(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T08:04:11,126 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/getTrade],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTransactionDetails(java.lang.String)
-[INFO ] 2019-03-08T08:04:11,127 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T08:04:11,128 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-[INFO ] 2019-03-08T08:04:11,152 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:04:11,152 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:04:11,183 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:04:11,214 [main] WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
-[INFO ] 2019-03-08T08:04:11,511 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-[INFO ] 2019-03-08T08:04:11,511 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
-[INFO ] 2019-03-08T08:04:11,527 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50007"]
-[INFO ] 2019-03-08T08:04:11,542 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50007"]
-[INFO ] 2019-03-08T08:04:11,558 [main] NioSelectorPool - Using a shared selector for servlet write/read
-[INFO ] 2019-03-08T08:04:11,589 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 50007 (http)
-[INFO ] 2019-03-08T08:04:11,589 [main] ServerKt - Started ServerKt in 11.365 seconds (JVM running for 13.217)
-[INFO ] 2019-03-08T08:05:35,054 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 22068 (C:\Personal\samples\cordapp-example\clients\build\classes\kotlin\main started by ideapad in C:\Personal\samples\cordapp-example\clients)
-[INFO ] 2019-03-08T08:05:35,070 [main] ServerKt - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-08T08:05:35,351 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 13:35:35 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T08:05:36,623 [background-preinit] Version - HV000001: Hibernate Validator 5.3.5.Final
-[INFO ] 2019-03-08T08:05:37,735 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$5fbe0332] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-08T08:05:39,529 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 50006 (http)
-[INFO ] 2019-03-08T08:05:39,545 [main] StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-08T08:05:39,545 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
-[INFO ] 2019-03-08T08:05:40,731 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-08T08:05:40,778 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 5427 ms
-[INFO ] 2019-03-08T08:05:40,918 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
-[INFO ] 2019-03-08T08:05:40,934 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-[INFO ] 2019-03-08T08:05:40,934 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-[INFO ] 2019-03-08T08:05:40,934 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-[INFO ] 2019-03-08T08:05:40,934 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-[INFO ] 2019-03-08T08:05:47,473 [main] RPCClient - Startup took 4903 msec
-[INFO ] 2019-03-08T08:05:48,554 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f4a3a8d: startup date [Fri Mar 08 13:35:35 IST 2019]; root of context hierarchy
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/me],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, net.corda.core.identity.CordaX500Name> com.example.server.MainController.whoami()
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/peers],methods=[GET],produces=[application/json]}" onto public final java.util.Map<java.lang.String, java.util.List<net.corda.core.identity.CordaX500Name>> com.example.server.MainController.getPeers()
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/create-trade],methods=[POST],consumes=[application/x-www-form-urlencoded],produces=[text/plain]}" onto public final org.springframework.http.ResponseEntity<java.lang.String> com.example.server.MainController.createIOU(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/trades],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTrades()
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/api/trading/getTrade],methods=[GET],produces=[application/json]}" onto public final org.springframework.http.ResponseEntity<java.util.List<net.corda.core.contracts.StateAndRef<com.example.state.TradeState>>> com.example.server.MainController.getTransactionDetails(java.lang.String)
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-[INFO ] 2019-03-08T08:05:48,680 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-[INFO ] 2019-03-08T08:05:48,711 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:05:48,727 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:05:48,774 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-[INFO ] 2019-03-08T08:05:48,789 [main] WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
-[INFO ] 2019-03-08T08:05:49,417 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-[INFO ] 2019-03-08T08:05:49,432 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
-[INFO ] 2019-03-08T08:05:49,479 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50006"]
-[INFO ] 2019-03-08T08:05:49,495 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50006"]
-[INFO ] 2019-03-08T08:05:49,495 [main] NioSelectorPool - Using a shared selector for servlet write/read
-[INFO ] 2019-03-08T08:05:49,541 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 50006 (http)
-[INFO ] 2019-03-08T08:05:49,541 [main] ServerKt - Started ServerKt in 16.557 seconds (JVM running for 18.873)
-[INFO ] 2019-03-08T08:06:41,912 [http-nio-50006-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-08T08:06:41,912 [http-nio-50006-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-[INFO ] 2019-03-08T08:06:41,928 [http-nio-50006-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
-[INFO ] 2019-03-08T08:06:46,924 [http-nio-50005-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-08T08:06:46,926 [http-nio-50005-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-[INFO ] 2019-03-08T08:06:46,986 [http-nio-50005-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
-[INFO ] 2019-03-08T08:06:55,240 [http-nio-50007-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-08T08:06:55,240 [http-nio-50007-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
-[INFO ] 2019-03-08T08:06:55,256 [http-nio-50007-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+[INFO ] 2019-04-13T11:16:45,894 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 18088 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T11:16:45,972 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T11:16:50,772 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c0fbd9f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T11:16:54,457 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T11:16:54,533 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:16:54,564 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T11:16:54,564 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T11:16:54,689 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T11:16:55,238 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T11:16:55,238 [main] ContextLoader - Root WebApplicationContext: initialization completed in 9049 ms
+[INFO ] 2019-04-13T11:17:04,061 [main] RPCClient - Startup took 7659 msec
+[INFO ] 2019-04-13T11:17:06,684 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T11:17:07,101 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T11:17:07,945 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:17:08,007 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T11:17:08,007 [main] ServerKt - Started ServerKt in 33.219 seconds (JVM running for 40.076)
+[INFO ] 2019-04-13T11:17:35,999 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:17:36,003 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:17:36,023 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 20 ms
+[ERROR] 2019-04-13T11:17:36,135 [http-nio-50005-exec-2] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Cannot format given Object as a Date] with root cause
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.text.DateFormat.format(DateFormat.java:310) ~[?:1.8.0_181]
+	at java.text.Format.format(Format.java:157) ~[?:1.8.0_181]
+	at com.example.server.MainController.createIOU(MainController.kt:95) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[INFO ] 2019-04-13T11:22:13,288 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 9164 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T11:22:13,366 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T11:22:18,806 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d1c56a6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T11:22:22,225 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T11:22:22,334 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:22:22,366 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T11:22:22,381 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T11:22:22,459 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T11:22:22,978 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T11:22:22,978 [main] ContextLoader - Root WebApplicationContext: initialization completed in 9343 ms
+[INFO ] 2019-04-13T11:22:30,499 [main] RPCClient - Startup took 6290 msec
+[INFO ] 2019-04-13T11:22:32,542 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T11:22:33,154 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T11:22:34,023 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:22:34,085 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T11:22:34,085 [main] ServerKt - Started ServerKt in 26.446 seconds (JVM running for 32.918)
+[INFO ] 2019-04-13T11:22:44,749 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:22:44,753 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:22:44,793 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 40 ms
+[ERROR] 2019-04-13T11:22:44,917 [http-nio-50005-exec-2] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Cannot format given Object as a Date] with root cause
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.text.DateFormat.format(DateFormat.java:310) ~[?:1.8.0_181]
+	at java.text.Format.format(Format.java:157) ~[?:1.8.0_181]
+	at com.example.server.MainController.createIOU(MainController.kt:95) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[INFO ] 2019-04-13T11:31:10,950 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 5648 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T11:31:11,155 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T11:31:19,934 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$724dc7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T11:31:23,027 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T11:31:23,089 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:31:23,121 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T11:31:23,121 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T11:31:23,212 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T11:31:23,729 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T11:31:23,729 [main] ContextLoader - Root WebApplicationContext: initialization completed in 11556 ms
+[INFO ] 2019-04-13T11:31:33,014 [main] RPCClient - Startup took 7942 msec
+[INFO ] 2019-04-13T11:31:35,902 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T11:31:36,441 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T11:31:37,401 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:31:37,479 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T11:31:37,500 [main] ServerKt - Started ServerKt in 32.932 seconds (JVM running for 53.226)
+[INFO ] 2019-04-13T11:31:56,644 [http-nio-50005-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:31:56,644 [http-nio-50005-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:31:56,692 [http-nio-50005-exec-1] DispatcherServlet - Completed initialization in 48 ms
+[ERROR] 2019-04-13T11:31:56,872 [http-nio-50005-exec-1] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Cannot format given Object as a Date] with root cause
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.text.DateFormat.format(DateFormat.java:310) ~[?:1.8.0_181]
+	at java.text.Format.format(Format.java:157) ~[?:1.8.0_181]
+	at com.example.server.MainController.createIOU(MainController.kt:95) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[INFO ] 2019-04-13T11:43:24,366 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 4428 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T11:43:24,416 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T11:43:28,229 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e1e96768] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T11:43:29,899 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T11:43:29,988 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:43:30,017 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T11:43:30,017 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T11:43:30,247 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T11:43:30,905 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T11:43:30,906 [main] ContextLoader - Root WebApplicationContext: initialization completed in 6292 ms
+[INFO ] 2019-04-13T11:43:42,295 [main] RPCClient - Startup took 9686 msec
+[INFO ] 2019-04-13T11:43:43,570 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T11:43:43,840 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T11:43:44,354 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T11:43:44,444 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T11:43:44,451 [main] ServerKt - Started ServerKt in 22.872 seconds (JVM running for 27.895)
+[INFO ] 2019-04-13T11:44:58,275 [http-nio-50005-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:44:58,276 [http-nio-50005-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T11:44:58,286 [http-nio-50005-exec-2] DispatcherServlet - Completed initialization in 10 ms
+[INFO ] 2019-04-13T11:45:32,721 [http-nio-50005-exec-2] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T11:45:34,003 [http-nio-50005-exec-2] CachingConnectionFactory - Created new connection: connectionFactory#3bc34a50:0/SimpleConnection@54915823 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 3553]
+[INFO ] 2019-04-13T16:20:19,453 [main] ServerKt - Starting ServerKt on LAPTOP-M661KEM1 with PID 5488 (G:\cryptoleague-corda\clients\build\classes\kotlin\main started by ideapad in G:\cryptoleague-corda\clients)
+[INFO ] 2019-04-13T16:20:19,568 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13T16:20:27,580 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$308bfb71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-04-13T16:20:35,495 [main] TomcatWebServer - Tomcat initialized with port(s): 50005 (http)
+[INFO ] 2019-04-13T16:20:35,745 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T16:20:35,854 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-04-13T16:20:35,854 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-04-13T16:20:36,033 [main] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\Windows\System32;C:\Windows\System32;C:\Program Files\Microsoft VS Code\bin;C:\Users\ideapad\AppData\Local\Microsoft\WindowsApps;C:\Users\ideapad\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\ideapad\AppData\Local\GitHubDesktop\bin;.]
+[INFO ] 2019-04-13T16:20:37,434 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-04-13T16:20:37,438 [main] ContextLoader - Root WebApplicationContext: initialization completed in 17518 ms
+[INFO ] 2019-04-13T16:21:00,729 [main] RPCClient - Startup took 18279 msec
+[INFO ] 2019-04-13T16:21:04,175 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-04-13T16:21:04,995 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-04-13T16:21:06,494 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-50005"]
+[INFO ] 2019-04-13T16:21:06,588 [main] TomcatWebServer - Tomcat started on port(s): 50005 (http) with context path ''
+[INFO ] 2019-04-13T16:21:06,603 [main] ServerKt - Started ServerKt in 53.433 seconds (JVM running for 59.776)
+[INFO ] 2019-04-13T16:22:16,867 [http-nio-50005-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-04-13T16:22:16,882 [http-nio-50005-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-04-13T16:22:16,929 [http-nio-50005-exec-1] DispatcherServlet - Completed initialization in 47 ms
+[INFO ] 2019-04-13T16:24:30,399 [http-nio-50005-exec-1] LocalTypeInformationBuilder - Properties of type java.time.LocalDate do not satisfy its constructor, type has been marked as non-composable
+[INFO ] 2019-04-13T16:24:30,399 [http-nio-50005-exec-1] LocalTypeInformationBuilder - Properties of type java.time.LocalTime do not satisfy its constructor, type has been marked as non-composable
+[INFO ] 2019-04-13T16:24:30,399 [http-nio-50005-exec-1] LocalTypeInformationBuilder - Properties of type java.time.LocalDateTime do not satisfy its constructor, type has been marked as non-composable
+[INFO ] 2019-04-13T16:24:30,414 [http-nio-50005-exec-1] LocalTypeInformationBuilder - Type com.example.state.TradeState has non-composable properties and has been marked as non-composable
+[INFO ] 2019-04-13T16:24:33,169 [http-nio-50005-exec-1] CachingConnectionFactory - Attempting to connect to: localhost:5672
+[INFO ] 2019-04-13T16:24:37,641 [http-nio-50005-exec-1] CachingConnectionFactory - Created new connection: connectionFactory#7ad8e3ce:0/SimpleConnection@4713fc7f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 8385]
+[INFO ] 2019-04-13T16:26:28,561 [http-nio-50005-exec-4] LocalTypeInformationBuilder - Properties of type java.time.LocalDate do not satisfy its constructor, type has been marked as non-composable
+[INFO ] 2019-04-13T16:26:28,561 [http-nio-50005-exec-4] LocalTypeInformationBuilder - Properties of type java.time.LocalTime do not satisfy its constructor, type has been marked as non-composable
+[INFO ] 2019-04-13T16:26:28,577 [http-nio-50005-exec-4] LocalTypeInformationBuilder - Properties of type java.time.LocalDateTime do not satisfy its constructor, type has been marked as non-composable
+[INFO ] 2019-04-13T16:26:28,577 [http-nio-50005-exec-4] LocalTypeInformationBuilder - Type com.example.state.TradeState has non-composable properties and has been marked as non-composable

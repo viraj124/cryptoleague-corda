@@ -1,14 +1,14 @@
-2019-03-08 07:30:32,571 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-2019-03-08 07:30:32,576 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-13 21:41:10,124 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-13 21:41:10,128 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
 
    ______               __
   / ____/     _________/ /___ _
- / /     __  / ___/ __  / __ `/         Don't trust atoms.
-/ /___  /_/ / /  / /_/ / /_/ /          They make up everything.
+ / /     __  / ___/ __  / __ `/         War does not determine who is right.
+/ /___  /_/ / /  / /_/ / /_/ /          It determines who is left.
 \____/     /_/   \__,_/\__,_/
 
 --- Corda Open Source 4.0-RC05 (47c7da0) -------------------------------------------------------------
 
 
-Logs can be found in                    : C:\Personal\samples\cordapp-example\workflows-kotlin\build\nodes\Market\logs
-[ERROR] 07:31:03+0530 [main] persistence.AttachmentVersionNumberMigration.execute - Attachment version creation from whitelisted JARs exception C:\Personal\samples\cordapp-example\workflows-kotlin\build\nodes\Market\network-parameters [errorCode=1hgb0kx, moreInformationAt=https://errors.corda.net/OS/4.0-RC05/1hgb0kx]
+Logs can be found in                    : G:\cryptoleague-corda\workflows-kotlin\build\nodes\Market\logs
+[ERROR] 21:42:00+0530 [main] persistence.AttachmentVersionNumberMigration.execute - Attachment version creation from whitelisted JARs exception G:\cryptoleague-corda\workflows-kotlin\build\nodes\Market\network-parameters [errorCode=1hgb0kx, moreInformationAt=https://errors.corda.net/OS/4.0-RC05/1hgb0kx]

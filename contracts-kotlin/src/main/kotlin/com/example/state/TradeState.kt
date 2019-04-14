@@ -12,6 +12,8 @@ import net.corda.core.schemas.MappedSchema
 import net.corda.core.schemas.PersistentState
 import net.corda.core.schemas.QueryableState
 import java.sql.Timestamp
+import java.time.LocalDateTime
+import java.util.*
 
 /**
  * The state object recording IOU agreements between two parties.
@@ -29,10 +31,13 @@ data class TradeState(val initiatingParty: Party,
                       val userId: String,
                       var assetCode: String,
                       var orderType: String,
-                      var transactionAmount: Int,
-                      var transactionFees: Int,
-                      var transactionUnits: Int,
+                      var transactionAmount: Double,
+                      var transactionFees: Double,
+                      var transactionUnits: Double,
                       var transactionId: String,
+                      var transactionDate: Date,
+                      var transactionPrice:Double,
+                      var transactionTime : LocalDateTime,
                       override val linearId: UniqueIdentifier = UniqueIdentifier()):
 
         LinearState, QueryableState {
@@ -52,6 +57,9 @@ data class TradeState(val initiatingParty: Party,
                     this.transactionFees,
                     this.transactionUnits,
                     this.transactionId,
+                    this.transactionDate,
+                    this.transactionPrice,
+                    this.transactionTime,
                     this.linearId.id)
             else -> throw IllegalArgumentException("Unrecognised schema $schema")
         }

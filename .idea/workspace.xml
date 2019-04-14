@@ -1,45 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cryptoleague-corda:jar4" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf9e4301-2e94-4382-9702-4a21f3a11197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RegulatorFlow.kt" afterDir="false" />
+    <list default="true" id="fe7485ce-f7b1-43a6-95c8-83f657b73d92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cryptoleague_corda_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cryptoleague_corda_jar3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__co_paralleluniverse_quasar_core_jdk8_0_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ea_agentloader_ea_agent_loader_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_kryo_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_reflectasm_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ben_manes_caffeine_caffeine_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bft_smart_library_master_v1_1_beta_g6215ec8_87.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_corda_crash_crash_cli_cadb53544fbb3c0fb901445da614998a6a419488.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_corda_crash_crash_connectors_ssh_cadb53544fbb3c0fb901445da614998a6a419488.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_corda_crash_crash_shell_cadb53544fbb3c0fb901445da614998a6a419488.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_testlib_25_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_jimfs_jimfs_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_h2database_h2_1_4_197.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intellij_forms_rt_7_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcabi_jcabi_log_0_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcabi_jcabi_manifests_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jgoodies_forms_1_1_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lmax_disruptor_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mattbertolini_liquibase_slf4j_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_natpryce_hamkrest_1_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_newrelic_agent_java_newrelic_api_3_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nhaarman_mockito_kotlin_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_palominolabs_metrics_metrics_new_relic_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rabbitmq_amqp_client_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_javakaffee_kryo_serializers_0_42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__info_picocli_picocli_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_catalyst_catalyst_buffer_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_catalyst_catalyst_common_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_catalyst_catalyst_concurrent_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_catalyst_catalyst_netty_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_catalyst_catalyst_serializer_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_catalyst_catalyst_transport_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_copycat_copycat_client_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_copycat_copycat_protocol_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_atomix_copycat_copycat_server_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_core_3_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_core_3_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_classgraph_classgraph_4_6_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_unix_common_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jdom_jdom_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_configuration_parsing_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_validation_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_confidential_identities_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_core_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_contracts_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_workflows_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_jackson_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_mock_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_api_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_driver_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_rpc_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_serialization_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_shell_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_common_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_utils_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_tools_cliutils_4_0_RC05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_i2p_crypto_eddsa_0_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jpam_jpam_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_amqp_protocol_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_commons_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_core_client_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_jdbc_store_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_jms_client_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_journal_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_native_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_selector_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_artemis_server_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_jexl3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jms_2_0_spec_1_0_alpha_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_json_1_0_spec_1_0_alpha_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_johnzon_johnzon_core_0_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_web_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_web_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_mina_mina_core_2_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_qpid_proton_j_0_27_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_cache_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_config_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_crypto_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_event_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_shiro_shiro_lang_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_sshd_sshd_core_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_sshd_sshd_pam_0_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_1_8_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_continuation_9_2_14_v20151106.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlet_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_webapp_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_9_4_7_v20170914.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_fusesource_jansi_jansi_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_external_javax_inject_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_hk2_api_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_hk2_locator_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_hk2_utils_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_containers_jersey_container_jetty_http_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_containers_jersey_container_servlet_core_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_client_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_common_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_server_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jersey_media_jersey_media_jaxb_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_java8_5_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_iq80_snappy_snappy_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jgroups_jgroups_3_6_13_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jolokia_jolokia_core_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jolokia_jolokia_jvm_agent_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_liquibase_liquibase_core_3_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_18_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_postgresql_postgresql_42_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_amqp_spring_amqp_1_4_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_amqp_spring_rabbit_1_4_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_log4j2_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_1_5_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_retry_spring_retry_1_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_websocket_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clients/com.example.clients.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clients/com.example.clients.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clients/com.example.clients.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.integrationTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Debug_CorDapp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Contract_Tests___Java.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Contract_Tests___Kotlin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Example_Cordapp___Java.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Example_Cordapp___Kotlin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Flow_Tests___Java.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Flow_Tests___Kotlin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Integration_Tests___Java.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Integration_Tests___Kotlin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Unit_tests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/example/mq/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/java/main/com/example/mq/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/example/mq/RabbitMqConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/java/main/com/example/mq/RabbitMqConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/MainController$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/MainController$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/MainControllerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/MainControllerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/ServerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/ServerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/TradingAppSerializationWhitelist.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/kotlin/main/com/example/server/TradingAppSerializationWhitelist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/resources/main/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/logs/node-LAPTOP-M661KEM1.log" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/node-LAPTOP-M661KEM1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/mq/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/mq/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/mq/RabbitMqConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/mq/RabbitMqConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/MainController$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/MainController$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/MainControllerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/MainControllerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/NodeRPCConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/NodeRPCConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/ServerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/ServerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/TradingAppSerializationWhitelist.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/TradingAppSerializationWhitelist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/mq/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/mq/RabbitMqConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-java/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/IOUContract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/IOUSchema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/IOUSchemaV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/IOUState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/TradeContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/TradeContract.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/contract/TradeContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/contract/TradeContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/schema/TradeSchema.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/schema/TradeSchema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/schema/TradeSchemaV1$PersistentTrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/schema/TradeSchemaV1$PersistentTrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/schema/TradeSchemaV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/schema/TradeSchemaV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/state/TradeState.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/state/TradeState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/kotlin/cordappexamplecontracts01jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/kotlin/cordappexamplecontracts01jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/libs/cordapp-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/libs/cordapp-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Commands$CounterTrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Commands$CounterTrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Commands$Create.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Commands$Create.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Commands.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Commands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/TradeContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/schema/TradeSchema.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/schema/TradeSchema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/schema/TradeSchemaV1$PersistentTrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/schema/TradeSchemaV1$PersistentTrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/schema/TradeSchemaV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/schema/TradeSchemaV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/state/TradeState.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/state/TradeState.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/src/integrationTest/java/com/example/DriverBasedTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/ExampleFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/mq/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/NodeDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/contract/IOUContractTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/flow/IOUFlowTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Acceptor$call$signTransactionFlow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Acceptor$call$signTransactionFlow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$FINALISING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$FINALISING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$GATHERING_SIGS.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$GATHERING_SIGS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$GENERATING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$GENERATING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$SIGNING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$SIGNING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$VERIFYING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion$VERIFYING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow$Initiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradeFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/cordappexampleworkflows01jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/cordappexampleworkflows01jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/libs/cordapp-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/libs/cordapp-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0-RC05/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0-RC05/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0-RC05/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0-RC05/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0-RC05/reference.conf" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0-RC05/reference.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/artemis/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/brokers/rpc/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/cordapps/cordapp-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/cordapps/cordapp-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/cordapps/cordapp-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/cordapps/cordapp-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/logs/node-LAPTOP-M661KEM1.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/logs/node-LAPTOP-M661KEM1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Fidelity/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/artemis/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/brokers/rpc/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/cordapps/cordapp-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/cordapps/cordapp-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/cordapps/cordapp-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/cordapps/cordapp-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/logs/node-LAPTOP-M661KEM1.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/logs/node-LAPTOP-M661KEM1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Market/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/cordapps/cordapp-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/cordapps/cordapp-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/cordapps/cordapp-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/cordapps/cordapp-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-LAPTOP-M661KEM1.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-LAPTOP-M661KEM1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-026D05E44F76816A93A0C98AD0A4599404CA9461C2693123BD8A2F53DF98E620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-A6A229AA8F08A71548301A4ECABA2E0104A9BF0DA56FF3A0F5C920083DA6555C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/additional-node-infos/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/artemis/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/brokers/rpc/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/cordapps/cordapp-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/cordapps/cordapp-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/cordapps/cordapp-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/cordapps/cordapp-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/logs/node-LAPTOP-M661KEM1.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/logs/node-LAPTOP-M661KEM1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/nodeInfo-B3CAD15E277EBA7E3EBB52DC35D7C347DB0A59BCFA591479D06E623BA342C957" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Regulator/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes.bat" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/resources/main/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/resources/main/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/PartyA_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/PartyB_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/PartyC_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes.bat" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/integrationTest/classes/com/example/DriverBasedTests$node test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/integrationTest/classes/com/example/DriverBasedTests$node test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/integrationTest/classes/com/example/DriverBasedTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/integrationTest/classes/com/example/DriverBasedTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow$AutoOfferAcceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow$AutoOfferAcceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow$ReceiveRegulatoryReportFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow$ReceiveRegulatoryReportFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow$ReportToRegulatorFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow$ReportToRegulatorFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/RegulatorFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Acceptor$call$signTransactionFlow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Acceptor$call$signTransactionFlow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$FINALISING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$FINALISING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$GATHERING_SIGS.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$GATHERING_SIGS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$GENERATING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$GENERATING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$SIGNING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$SIGNING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$VERIFYING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion$VERIFYING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow$Initiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradeFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/test/classes/com/example/test/NodeDriverKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/test/classes/com/example/test/NodeDriverKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/test/classes/com/example/test/NodeDriverKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/test/classes/com/example/test/NodeDriverKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/clients/.gradle/" />
     <ignored path="$PROJECT_DIR$/clients/build/" />
     <ignored path="$PROJECT_DIR$/clients/out/" />
-    <ignored path="$PROJECT_DIR$/contracts-java/.gradle/" />
-    <ignored path="$PROJECT_DIR$/contracts-java/build/" />
-    <ignored path="$PROJECT_DIR$/contracts-java/out/" />
     <ignored path="$PROJECT_DIR$/contracts-kotlin/.gradle/" />
     <ignored path="$PROJECT_DIR$/contracts-kotlin/build/" />
     <ignored path="$PROJECT_DIR$/contracts-kotlin/out/" />
-    <ignored path="$PROJECT_DIR$/workflows-java/.gradle/" />
-    <ignored path="$PROJECT_DIR$/workflows-java/build/" />
-    <ignored path="$PROJECT_DIR$/workflows-java/out/" />
     <ignored path="$PROJECT_DIR$/workflows-kotlin/.gradle/" />
     <ignored path="$PROJECT_DIR$/workflows-kotlin/build/" />
     <ignored path="$PROJECT_DIR$/workflows-kotlin/out/" />
@@ -54,29 +490,13 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+            <state relative-caret-position="153">
+              <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -84,26 +504,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+            <state relative-caret-position="1037">
+              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RegulatorFlow.kt">
+        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="646">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <folding>
+                <element signature="e#28#477#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clients/src/main/java/com/example/mq/RabbitMqConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+            <state relative-caret-position="221">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,49 +572,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+        <entry file="file://$PROJECT_DIR$/config/dev/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="95" selection-start-line="83" selection-start-column="95" selection-end-line="83" selection-end-column="95" />
+            <state relative-caret-position="340">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>trades</find>
-      <find>tradingAppModule</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -162,31 +588,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/contracts-kotlin/build.gradle" />
-        <option value="$PROJECT_DIR$/workflows-java/build.gradle" />
-        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/IOUContract.kt" />
-        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/IOUState.kt" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/contract/IOUContractTests.kt" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/resources/public/js/angular-module.js" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/build.gradle" />
-        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/TradingAppSerializationWhitelist.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/kotlin/META-INF/services/net.corda.core.serialization.SerializationWhitelist" />
-        <option value="$PROJECT_DIR$/clients/src/main/resources/META-INF/services/net.corda.core.serialization.SerializationWhitelist" />
-        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/clients/src/main/java/com/example/mq/Producer.java" />
+        <option value="$PROJECT_DIR$/config/dev/log4j2.xml" />
         <option value="$PROJECT_DIR$/clients/build.gradle" />
-        <option value="$PROJECT_DIR$/clients/src/main/resources/public/index.html" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/TradeContract.kt" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RegulatorFlow.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/java/com/example/mq/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/clients/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt" />
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt" />
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/java/com/example/mq/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt" />
       </list>
     </option>
   </component>
@@ -196,56 +607,60 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="945" />
     <option name="height" value="1030" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -253,16 +668,16 @@
               <item name="mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -270,34 +685,53 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -305,8 +739,8 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -315,8 +749,8 @@
               <item name="schema" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -325,34 +759,50 @@
               <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -360,36 +810,61 @@
               <item name="flow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="contract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptoleague-corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptoleague-corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552010775690" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../playing-with-corda-and-spring" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555171415782" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.example.flow" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.mq" />
-      <recent name="com.example.server" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Personal\samples\cordapp-example\clients\src\main\kotlin\com\example\server" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -403,25 +878,113 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run Example Cordapp - Java" />
+  <component name="RunManager" selected="JUnit.IOUFlowTests.flow rejects invalid IOUs">
+    <configuration name="IOUFlowTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.workflows-kotlin.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.flow.IOUFlowTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOUFlowTests.flow rejects invalid IOUs" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="com.example.workflows-kotlin.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.flow.IOUFlowTests" />
+      <option name="METHOD_NAME" value="flow rejects invalid IOUs" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.IOUFlowTests.flow rejects invalid IOUs" />
+      <item itemvalue="JUnit.IOUFlowTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IOUFlowTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf9e4301-2e94-4382-9702-4a21f3a11197" name="Default Changelist" comment="" />
-      <created>1550505289466</created>
+      <changelist id="fe7485ce-f7b1-43a6-95c8-83f657b73d92" name="Default Changelist" comment="" />
+      <created>1553875888742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550505289466</updated>
+      <updated>1553875888742</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 09h 29m 46s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 09h 50m 17s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 15h 52m 58s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 17h 12m 39s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 17h 13m 30s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 17h 14m 40s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 17h 14m 48s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 18h 18m 09s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 18h 19m 24s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOUFlowTests_flow_rejects_invalid_IOUs - 2019.04.05 at 18h 20m 37s.xml">
+      <configuration name="IOUFlowTests.flow rejects invalid IOUs" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22214764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,206 +992,166 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.577748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.04021448" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.034228187" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.03691275" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19463088" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57908845" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contracts-java/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/clients/src/main/java/com/example/mq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/contract/IOUContractTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-column="2" selection-end-line="95" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/TradeContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" selection-start-column="2" selection-end-line="125" selection-end-column="3" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/css/bootstrap.min.css" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/css/bootstrap.min.js" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/css/bootstrap-theme.min.css" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/js/angular.min.js" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/js/ng-loading-overlay.min.js" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/js/jquery.min.js" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/assets/assets/style.css" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/iglogo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/build.gradle">
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="1037">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build.gradle">
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/js/angular-module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6664">
-          <caret line="392" column="37" selection-start-line="392" selection-start-column="37" selection-end-line="392" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.0-RC05/fbe8bd2f42abd5b2bd947bd4f409ce71d7639e9f/corda-core-4.0-RC05-sources.jar!/net/corda/core/transactions/SignedTransaction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5015">
-          <caret line="317" column="11" selection-start-line="317" selection-start-column="11" selection-end-line="317" selection-end-column="11" />
+        <state relative-caret-position="646">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clients/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENCE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/TradingAppSerializationWhitelist.kt" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/META-INF/services/net.corda.core.serialization.SerializationWhitelist" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/META-INF/services/net.corda.core.serialization.SerializationWhitelist" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/RabbitMqConfig.java" />
-    <entry file="file://$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/ExampleFlow.java" />
-    <entry file="file://$PROJECT_DIR$/workflows-java/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/java/com/example/mq/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="459">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#28#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/TradeContract.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/TradeState.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradeFlow.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="95" selection-start-line="83" selection-start-column="95" selection-end-line="83" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RegulatorFlow.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clients/src/main/java/com/example/mq/RabbitMqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        <state relative-caret-position="221">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/TradeSchema.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -638,10 +1161,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>cryptoleague-corda:jar4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -649,7 +1174,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Kotlin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -684,7 +1209,19 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cordapp-example</last-edited>
+          <last-edited>clients|example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -696,6 +1233,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -33,6 +33,9 @@ open class Server {
 fun main(args: Array<String>) {
     val app = SpringApplication(Server::class.java)
     app.setBannerMode(Banner.Mode.OFF)
-    app.isWebEnvironment = true
     app.run(*args)
 }
+
+
+
+

@@ -1,14 +1,14 @@
-2019-03-08 07:30:20,915 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-2019-03-08 07:30:20,918 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-13 21:41:20,179 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-13 21:41:20,183 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
 
    ______               __
   / ____/     _________/ /___ _
- / /     __  / ___/ __  / __ `/         There are two rules for financial success:
-/ /___  /_/ / /  / /_/ / /_/ /          1) Don't tell everything you know.
+ / /     __  / ___/ __  / __ `/         My boss asked me who is the stupid one, me or him?
+/ /___  /_/ / /  / /_/ / /_/ /          I said everyone knows he doesn't hire stupid people.
 \____/     /_/   \__,_/\__,_/
 
 --- Corda Open Source 4.0-RC05 (47c7da0) -------------------------------------------------------------
 
 
-Logs can be found in                    : C:\Personal\samples\cordapp-example\workflows-kotlin\build\nodes\Fidelity\logs
-[ERROR] 07:30:38+0530 [main] persistence.AttachmentVersionNumberMigration.execute - Attachment version creation from whitelisted JARs exception C:\Personal\samples\cordapp-example\workflows-kotlin\build\nodes\Fidelity\network-parameters [errorCode=1hgb0kx, moreInformationAt=https://errors.corda.net/OS/4.0-RC05/1hgb0kx]
+Logs can be found in                    : G:\cryptoleague-corda\workflows-kotlin\build\nodes\Fidelity\logs
+[ERROR] 21:42:00+0530 [main] persistence.AttachmentVersionNumberMigration.execute - Attachment version creation from whitelisted JARs exception G:\cryptoleague-corda\workflows-kotlin\build\nodes\Fidelity\network-parameters [errorCode=1hgb0kx, moreInformationAt=https://errors.corda.net/OS/4.0-RC05/1hgb0kx]

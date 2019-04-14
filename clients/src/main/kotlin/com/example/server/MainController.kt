@@ -20,6 +20,8 @@ import org.springframework.http.MediaType
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.sql.Timestamp
+import java.text.SimpleDateFormat
+import java.util.*
 import javax.servlet.http.HttpServletRequest
 
 val SERVICE_NAMES = listOf("Notary", "Network Map Service")
@@ -88,9 +90,13 @@ class MainController(rpc: NodeRPCConnection) {
         val userId = request.getParameter("userId")
         val assetCode = request.getParameter("assetCode")
         val orderType = request.getParameter("orderType")
-        val transactionAmount = request.getParameter("transactionAmount").toInt()
-        val transactionFees = request.getParameter("transactionFees").toInt()
-        val transactionUnits = request.getParameter("transactionUnits").toInt()
+        val txDate = request.getParameter("transactionDate")
+        val sdf = SimpleDateFormat("dd/MM/yyyy")
+        val transactionDate = sdf.parse(txDate)
+        val transactionAmount = request.getParameter("transactionAmount").toDouble()
+        val transactionFees = request.getParameter("transactionFees").toDouble()
+        val transactionUnits = request.getParameter("transactionUnits").toDouble()
+        val transactionPrice = request.getParameter("transactionAmount").toDouble()
         val transactionId = request.getParameter("transactionId")
         if (counter == null) {
             throw IllegalArgumentException("Query parameter 'Counter partyName' missing or has wrong format")
@@ -104,7 +110,7 @@ class MainController(rpc: NodeRPCConnection) {
 
         val producer = Producer()
         return try {
-            val signedTx = proxy.startTrackedFlowDynamic(TradeFlow.Initiator::class.java,tradeStatus,counterParty,userId,assetCode,orderType,transactionAmount,transactionFees,transactionUnits,transactionId).returnValue.getOrThrow()
+            val signedTx = proxy.startTrackedFlowDynamic(TradeFlow.Initiator::class.java,tradeStatus,counterParty,userId,assetCode,orderType,transactionAmount,transactionFees,transactionUnits,transactionId,transactionDate,transactionPrice).returnValue.getOrThrow()
             val mapper = JacksonSupport.createNonRpcMapper()
             val result = mapper.writeValueAsString(signedTx)
             producer.send(result)
